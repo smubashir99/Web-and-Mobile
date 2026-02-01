@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms Exercise - Responsive</title>
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+    <!-- Header -->
+    <header>
+        <h2 style="font-size:4vw;">HTML Forms Exercise</h2>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Section 1: About your course -->
+        <section>
+            <fieldset name="about" style="background-color:#eeeeee;">
+                <legend style="font-weight:bold;">About Your Course</legend>
+
+                <p>
+                    <label>Name:
+                        <input name="name" type="text" size="25">
+                    </label>
+                </p>
+
+                <p>
+                    <label>Comments:
+                        <textarea name="comments" rows="4" cols="36">Enter comments here</textarea>
+                    </label>
+                </p>
+
+                <p>
+                    <label>E-mail Address:
+                        <input name="email" type="password" size="25">
+                    </label>
+                </p>
+
+                <p>
+                    <strong>Things you liked:</strong><br>
+                    <label>Site design <input name="thingsliked" type="checkbox" value="Design"></label>
+                    <label>Links <input name="thingsliked" type="checkbox" value="Links"></label>
+                    <label>Ease of use <input name="thingsliked" type="checkbox" value="Ease"></label>
+                    <label>Images <input name="thingsliked" type="checkbox" value="Images"></label>
+                    <label>Source code <input name="thingsliked" type="checkbox" value="Code"></label>
+                </p>
+            </fieldset>
+        </section>
+
+        <!-- Section 2: Our Site -->
+        <section>
+            <fieldset name="site" style="background-color:#eeeeee;">
+                <legend style="font-weight:bold;">Our Site</legend>
+
+                <p><strong>How did you get to our site?:</strong><br>
+                    <label>Search engine <input name="hoetosite" type="radio" value="search engine" checked></label>
+                    <label>Links from another site <input name="hoetosite" type="radio" value="link"></label>
+                    <label>deitel.com Web site <input name="hoetosite" type="radio" value="deitel.com"></label>
+                    <label>Reference in a book <input name="hoetosite" type="radio" value="book"></label>
+                    <label>Other <input name="hoetosite" type="radio" value="other"></label>
+                </p>
+
+                <p>
+                    <label>Rate our site:
+                        <select name="rating">
+                            <option selected>Amazing</option>
+                            <option>10</option>
+                            <option>9</option>
+                            <option>8</option>
+                            <option>7</option>
+                            <option>6</option>
+                            <option>5</option>
+                            <option>4</option>
+                            <option>3</option>
+                            <option>2</option>
+                            <option>1</option>
+                            <option>Awful</option>
+                        </select>
+                    </label>
+                </p>
+            </fieldset>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Copyright &copy; 2026, HCT <i>All rights reserved.</i>
+    </footer>
+
+</div>
+
+</body>
+</html>

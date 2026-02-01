@@ -1,0 +1,76 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+#container {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Section + Fieldset */
+section {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Labels and inputs */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive text for paragraphs */
+p {
+    font-size: 2vw;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    p {
+        font-size: 3vw;
+    }
+    header h2 {
+        font-size: 6vw;
+    }
+}
